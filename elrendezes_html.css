@@ -1,0 +1,22 @@
+
+body{
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-image: url(kepek/ep01_sc_01_intro_nagytotal_02-1.png) ;
+}
+aside {
+    flex: 1;              
+    border: 1px solid black;
+    padding: 100px 20px;
+}
+
+article {
+    flex: 1;              
+    border: 1px solid black;
+    border-left: none;     
+    padding: 100px 20px;
+}

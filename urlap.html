@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="hu-HU">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nerdő jelentkezés</title>
+    <link rel="stylesheet" href="formazas.css">
     <link rel="stylesheet" href="urlap.css">
+    
     <meta name="author" content="Stolár-Németh Villő és Páczi Balázs">
 </head>
+
 <body>
-    <header>Jelentkezés eseményre</header>
-    <form action="kuldes.html" >
+    <main>
+    <header><h1>Jelentkezés eseményre</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Fő oldal</a>
+                </li>
+                <li>
+                    <a href="urlap.html">Jelentkezés</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <form action="kuldes.html">
         <fieldset id="jelentkezes">
-            <legend >Jelentkezés</legend>
+            <legend>Jelentkezés</legend>
             <div>
                 <label for="nev">Név</label><span>*</span>
                 <input type="text" name="nev" id="nev" placeholder="teljes név" required maxlength="80">
@@ -23,42 +39,49 @@
             <div>
                 <label for="esemeny">Esemény kiválasztása</label><span>*</span>
                 <select name="esemeny" id="esemeny">
-                    <option value="első esemény - február 14. 16:00 - Budapest Inga Kultúrkávézó" name="v1">első esemény - nERDŐ-Premier és kibeszélő est - február 14. 18:00 - Budapest Inga Kultúrkávézó</option>
-                    <option value="első esemény - február 14. 16:00 - Budapest Inga Kultúrkávézó" name="v2">második esemény - nERDŐ-Premier és kibeszélő est *második ETAP* - február 14. 16:00 - Budapest Inga Kultúrkávézó</option>
-                    <option value="második esemény - február 15. 17:00 - Budapest Inga Kultúrkávézó" name="v3">harmadik esemény - nERDŐ-Premier és kibeszélő est *harmadik ETAP* - február 15. 17:00 - Budapest Inga Kultúrkávézó</option>
-                   
+                    <option value="első esemény - február 14. 16:00 - Budapest Inga Kultúrkávézó" name="v1">első esemény
+                        - nERDŐ-Premier és kibeszélő est - február 14. 18:00 - Budapest Inga Kultúrkávézó</option>
+                    <option value="első esemény - február 14. 16:00 - Budapest Inga Kultúrkávézó" name="v2">második
+                        esemény - nERDŐ-Premier és kibeszélő est *második ETAP* - február 14. 16:00 - Budapest Inga
+                        Kultúrkávézó</option>
+                    <option value="második esemény - február 15. 17:00 - Budapest Inga Kultúrkávézó" name="v3">harmadik
+                        esemény - nERDŐ-Premier és kibeszélő est *harmadik ETAP* - február 15. 17:00 - Budapest Inga
+                        Kultúrkávézó</option>
+
                 </select>
             </div>
             <div>
                 <label for="resztvevok">Résztvevők száma</label><span>*</span>
-                <input type="number" name="resztvevok" id="resztvevok" placeholder="1-10" min="1"  max="10">
+                <input type="number" name="resztvevok" id="resztvevok" placeholder="1-10" min="1" max="10">
             </div>
-            </fieldset>
-                <fieldset id="jegy">
-                    <legend>Résztvételi típus: <span>*</span></legend>
-                    <div>
-                        <div>
-                            <input type="checkbox" name="tipus[]" id="t1" value="early bird">
-                            <label for="t1">early bird</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="tipus[]" id="t2" value="normál jegy">
-                            <label for="t2">normál jegy</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="tipus[]" id="t3" value="HARCOS támogató jegy">
-                            <label for="t3">HARCOS támogató jegy</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset id="megjegyzes">
-                    <legend>Megjegyzés</legend>
-                    <div>
-                        <textarea rows="4" cols="50"></textarea>
-                    </div>
-                </fieldset>
-                <button type="submit">Küldés</button>
-                
+        </fieldset>
+        <fieldset id="jegy">
+            <legend>Résztvételi típus: <span>*</span></legend>
+            <div>
+                <div>
+                    <input type="checkbox" name="tipus[]" id="t1" value="early bird">
+                    <label for="t1">early bird</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="tipus[]" id="t2" value="normál jegy">
+                    <label for="t2">normál jegy</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="tipus[]" id="t3" value="HARCOS támogató jegy">
+                    <label for="t3">HARCOS támogató jegy</label>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset id="megjegyzes">
+            <legend>Megjegyzés</legend>
+            <div>
+                <textarea rows="4" cols="50"></textarea>
+            </div>
+        </fieldset>
+        <button type="submit">Küldés</button>
+
     </form>
+</main>
 </body>
+
 </html>

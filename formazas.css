@@ -1,22 +1,46 @@
 * {
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 15pt;
+  margin: 5px;
 }
 body{
-    background-color: rgba(0, 0, 255, 0.726);
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-image: url(kepek/ep01_sc_01_intro_nagytotal_02-1.png) ;
+    background-size: cover;
 }
 main {
-
-    display: grid;
-    background-image: url(kepek/ep01_sc_01_intro_nagytotal_02-1.png) ;
+  display: flex;      
+    flex: 1;               
+    margin: 5px;
+    gap: 0;
     background-size: cover;
     padding: auto;
 }
+header{
+  background-image: url(kepek/kep1.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+  font-size: 30pt;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  width: 95%;
 
+}
 h1 {
-  font-size: 30px;
+  font-size: 50pt;
+  color: orange;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* navigácós bellítások */
@@ -45,11 +69,11 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 20px;
-
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
 }
-img
- { width: 10%; height: 10%; }
 
- ul li{
-    margin: 10px;
- }
+ul li{
+  margin: 10px;
+}

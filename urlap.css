@@ -1,66 +1,47 @@
-*{
-    font-size: 15pt;
-    margin: 5px;
-}
 
-body {
-    background-color: antiquewhite;
-    display: flex;           
-    flex-direction: column;  
-    align-items: center;     
-    justify-content: flex-start; 
-    min-height: 100vh;       
-}
+
+
 
 header {
-    display: flex;           
-    flex-direction: column;  
-    align-items: center;     
-    justify-content: center; 
-    color: orange;
-    font-size: 30pt;
-    background-image: url(kepek/kep1.png);
-    background-size: cover;   
-    background-repeat: no-repeat;
-    padding: 50px;
-    width: 95%;
-}
-
-
-form {
-    display: flex;           
-    flex-direction: column;  
-    align-items: center;     
-    justify-content: center; 
-    gap: 20px;               
-    width: 80%;              
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#jelentkezes, #resztvevok, #jegy, #megjegyzes {
-    background-color: rgba(115, 138, 115, 0.637);
-    padding: 10px;
-    border-radius: 5px;
-    width: 100%;
-    box-sizing: border-box;              
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+  font-size: 30pt;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  width: 95%;
 }
 
 legend {
-    font-size: 18pt;
-    background-color: rgba(240, 201, 149, 0.89);
-    padding: 5px 10px;
-    border-radius: 3px;
+  font-size: 18pt;
+  background-color: rgba(240, 201, 149, 0.89);
+  padding: 5px 10px;
+  border-radius: 3px;
 }
 
-h1 {
-    font-size: 50pt;
-    color: orange;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> dc4dbd70b6183950002a4e01d0ac4d88b9b10181
+#jelentkezes,
+#resztvevok,
+#jegy,
+#megjegyzes {
+  background-color: rgba(115, 138, 115, 0.637);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
