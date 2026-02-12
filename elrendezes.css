@@ -1,6 +1,6 @@
 
 /*grid*/
-body{ 
+main{ 
 display: grid;
 grid-template-areas:
     "h h "
@@ -8,6 +8,8 @@ grid-template-areas:
     "as ar"
     "f f ";
     grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -33,3 +35,4 @@ article {
 footer{
     grid-area: f;
 }
+
