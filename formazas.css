@@ -77,3 +77,10 @@ footer {
 ul li{
   margin: 10px;
 }
+footer, article ,aside{
+  background-color: rgba(115, 138, 115, 0.637);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
