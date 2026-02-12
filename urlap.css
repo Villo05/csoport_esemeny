@@ -5,53 +5,59 @@
 
 body {
     background-color: antiquewhite;
+    display: flex;           
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: flex-start; 
+    min-height: 100vh;       
 }
 
 header {
-    text-align: center;
+    display: flex;           
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: center; 
     color: orange;
     font-size: 30pt;
     background-image: url(kepek/kep1.png);
+    background-size: cover;   
+    background-repeat: no-repeat;
     padding: 50px;
+    width: 95%;
 }
+
 
 form {
-    text-align: center;
-    justify-content: center;
+    display: flex;           
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: center; 
+    gap: 20px;               
+    width: 80%;              
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-#jelentkezes {
+#jelentkezes, #resztvevok, #jegy, #megjegyzes {
     background-color: rgba(115, 138, 115, 0.637);
     padding: 10px;
     border-radius: 5px;
-}
-
-#resztvevok {
-    background-color: rgba(115, 138, 115, 0.637);
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#jegy {
-    background-color: rgba(115, 138, 115, 0.637);
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#megjegyzes {
-    background-color: rgba(115, 138, 115, 0.637);
-    padding: 10px;
-    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;              
 }
 
 legend {
     font-size: 18pt;
     background-color: rgba(240, 201, 149, 0.89);
+    padding: 5px 10px;
+    border-radius: 3px;
 }
 
 h1 {
     font-size: 50pt;
     color: orange;
     text-align: center;
+    display: flex;
     justify-content: center;
 }
+
