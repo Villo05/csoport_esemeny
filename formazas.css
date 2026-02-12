@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+header{
+    background-image: url(kepek/Nerdo-logo-v2.webp);
+}
+
+
+body {
+  background-color: rgb(107, 177, 107);
+  display: grid;
+
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+/* navigácós bellítások */
+nav ul{
+    display: flex; justify-content: center; gap: 20px;
+    list-style: none;
+    color: black;
+}
+
+
+nav ul li{
+    list-style: none; 
+}
+
+
+nav ul li a{ 
+    text-decoration: none; color: black;
+}
+
+
+nav ul li a:hover{
+    color: rgb(0, 0, 255); text-decoration: underline;
+} 
+
+
+footer {
+  text-align: center;
+}
