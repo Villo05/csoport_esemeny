@@ -1,0 +1,60 @@
+<<<<<<< HEAD
+=======
+*{
+    font-size: 15pt;
+    margin: 5px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+    color: orange;
+    font-size: 30pt;
+    background-image: url(kepek/kep1.png);
+    padding: 50px;
+}
+
+form {
+    text-align: center;
+    justify-content: center;
+}
+
+#jelentkezes {
+    background-color: rgba(115, 138, 115, 0.637);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#resztvevok {
+    background-color: rgba(115, 138, 115, 0.637);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#jegy {
+    background-color: rgba(115, 138, 115, 0.637);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#megjegyzes {
+    background-color: rgba(115, 138, 115, 0.637);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 18pt;
+    background-color: rgba(240, 201, 149, 0.89);
+}
+
+h1 {
+    font-size: 50pt;
+    color: orange;
+    text-align: center;
+    justify-content: center;
+}
+>>>>>>> bbaaecd4e80c922db2be806c2bdb5953fd09d3b0
