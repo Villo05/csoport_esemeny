@@ -3,11 +3,15 @@
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
+body{
+    background-color: rgba(0, 0, 255, 0.726);
+}
+main {
 
-body {
-  background-color: rgb(107, 177, 107);
-  display: grid;
-  background-image: url(kepek/ep01_sc_01_intro_nagytotal_02-1.png);
+    display: grid;
+    background-image: url(kepek/ep01_sc_01_intro_nagytotal_02-1.png) ;
+    background-size: cover;
+    padding: auto;
 }
 
 h1 {
@@ -39,8 +43,13 @@ nav ul li a:hover {
 }
 
 footer {
-  text-align: center;
-padding: 20px;
+    text-align: center;
+    padding: 20px;
+
 }
 img
  { width: 10%; height: 10%; }
+
+ ul li{
+    margin: 10px;
+ }
