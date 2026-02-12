@@ -48,3 +48,10 @@ legend {
     font-size: 18pt;
     background-color: rgba(240, 201, 149, 0.89);
 }
+
+h1 {
+    font-size: 50pt;
+    color: orange;
+    text-align: center;
+    justify-content: center;
+}
