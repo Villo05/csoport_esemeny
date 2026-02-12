@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.726);
+}
+main {
+
+    display: grid;
+    background-image: url(kepek/ep01_sc_01_intro_nagytotal_02-1.png) ;
+    background-size: cover;
+    padding: auto;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* navigácós bellítások */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  color: black;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: rgb(0, 0, 255);
+  text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+
+}
+img
+ { width: 10%; height: 10%; }
+
+ ul li{
+    margin: 10px;
+ }
