@@ -47,8 +47,13 @@ form {
 
 #nev, #email, #esemeny,#resztvevok {
   width: 60%;
-  justify-content: center ;
-
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: left;
+  align-items: center;
+  justify-content: space-between;
 }
 
 textarea {
