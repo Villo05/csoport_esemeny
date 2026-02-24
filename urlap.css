@@ -35,7 +35,6 @@ form {
 }
 
 #jelentkezes,
-#resztvevok,
 #jegy,
 #megjegyzes {
   background-color: rgba(115, 138, 115, 0.637);
@@ -46,15 +45,10 @@ form {
 
 }
 
-#nev, #email, #esemeny, #resztvevok {
+#nev, #email, #esemeny,#resztvevok {
   width: 60%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  justify-content: left;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center ;
+
 }
 
 textarea {
@@ -66,10 +60,12 @@ textarea {
 #jelentkezes > div {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 10px;
   margin-bottom: 15px;
 }
 
 #jelentkezes label {
   width: 200px;
+  text-align: right;
 }
-
